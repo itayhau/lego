@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.job {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+.job h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activate-form {
+    margin-bottom: 40px;
+}
